@@ -20,5 +20,5 @@ Before running this project, ensure you have:
 ## Setup & Installation
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/nkswamy84/flowable-tut.git
-   cd flowable-tut
+   git clone https://github.com/nkswamy84/spring-flowable-bpmn-mongodb.git
+   cd spring-flowable-bpmn-mongodb
