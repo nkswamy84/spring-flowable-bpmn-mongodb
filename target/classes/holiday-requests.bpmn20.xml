@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:flowable="http://flowable.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.flowable.org/processdef">
+  <process id="holiday-requests" name="holiday-requests" isExecutable="true">
+    <startEvent id="sid-8bca39af-997b-4f0c-a86f-a294954dc434"/>
+    <userTask id="sid-6a3c3934-b269-4d48-8bf4-14ef906897d2" name="approveTask"/>
+    <sequenceFlow id="sid-03b0a090-2e48-4cfe-9ba1-1f7e7e599bf1" sourceRef="sid-8bca39af-997b-4f0c-a86f-a294954dc434" targetRef="sid-6a3c3934-b269-4d48-8bf4-14ef906897d2"/>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_holiday-requests">
+    <bpmndi:BPMNPlane bpmnElement="holiday-requests" id="BPMNPlane_holiday-requests">
+      <bpmndi:BPMNShape id="shape-7b214c9f-25e1-4a5d-b3bc-867dcead200e" bpmnElement="sid-8bca39af-997b-4f0c-a86f-a294954dc434">
+        <omgdc:Bounds x="-2850.0" y="-2080.0" width="30.0" height="30.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape-ef86c11f-1240-4f8b-831d-51de92f52bf6" bpmnElement="sid-6a3c3934-b269-4d48-8bf4-14ef906897d2">
+        <omgdc:Bounds x="-2720.0" y="-2105.0" width="100.0" height="80.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="edge-70af15fb-3602-487e-875b-7dc520feb7ef" bpmnElement="sid-03b0a090-2e48-4cfe-9ba1-1f7e7e599bf1">
+        <omgdi:waypoint x="-2820.0" y="-2065.0"/>
+        <omgdi:waypoint x="-2720.0" y="-2065.0"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>
