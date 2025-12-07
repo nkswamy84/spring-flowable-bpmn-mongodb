@@ -25,7 +25,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @FieldDefaults(level = AccessLevel.PRIVATE)
-@AllArgsConstructor(onConstructor = @__(@Autowired))
+@AllArgsConstructor
 public class HolidayService {
 
     public static final String TASK_CANDIDATE_GROUP = "managers";
